@@ -6,7 +6,7 @@ using Translator.Core.Interfaces;
 
 namespace Translator.Core.DomainModel
 {
-    class VariablePool : IVariablePool
+    public class VariablePool : IVariablePool
     {
         private Dictionary<string, IVariable> variableDict = new Dictionary<string, IVariable>();
 
